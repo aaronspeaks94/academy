@@ -1,7 +1,39 @@
+.navbar {
+    background-color: lightgrey;
+}
+
 .dropdown:hover>.dropdown-menu {
     display: block;
 }
 
 .carousel-inner {
-    max-height: 75vh;
+    height: 25vh;
+}
+
+.carousel-item {
+    position: relative;
+    height: 100%;
+}
+
+.carousel-item img {
+    position: absolute;
+    bottom: 0;
+}
+
+@media (min-width: 768px) {
+    .carousel-inner {
+        height: 40vh;
+    }
+}
+
+@media (min-width: 812px) {
+    .carousel-inner {
+        height: 50vh;
+    }
+}
+
+.site-footer {
+    background-color: darkblue;
+    padding: 20px 0;
+    color: white;
 }
