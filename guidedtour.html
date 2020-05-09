@@ -40,7 +40,7 @@
                         <div class="dropdown-menu" aria-labelledby="visitDropdown">
                             <a class="dropdown-item" href="construction.html">Virtual Tour</a>
                             <a class="dropdown-item" href="construction.html">Self-Guided Tour</a>
-                            <a class="dropdown-item" href="guidedtour.html">Book a Tour</a>
+                            <a class="dropdown-item" href="#">Book a Tour</a>
                             <a class="dropdown-item" href="construction.html">Photo Gallery</a>
                         </div>
                     </li>
@@ -81,20 +81,62 @@
             <!-- SUB NAVIGATION -->
             <div class="row m-2">
                 <div class="col-3 bg-light m-2">
-                    <a href="#" class="active">About</a>
+                    <a href="visit.html" class="active">Plan a Visit</a>
                     <ul class="list-unstyled ml-3">
-                        <li><a href="whykit.html">Why Kit Academy?</a></li>
-                        <li><a href="construction.html">History</a></li>
-                        <li><a href="construction.html">Notable Alumni</a></li>
-                        <li><a href="construction.html">Tuition / Financial Aid</a></li>
-                        <li><a href="construction.html">Testimonials</a></li>
+                        <li><a href="construction.html">Virtual Tour</a></li>
+                        <li><a href="construction.html">Self-Guided Tour</a></li>
+                        <li><a href="#">Book a Guided Tour</a></li>
+                        <li><a href="construction.html">Photo Gallery</a></li>
                     </ul>
                 </div>
                 <div class="col">
-                    <h1>About Kit Academy</h1>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sodales dolor cursus, feugiat leo ac, condimentum enim. Pellentesque posuere mollis bibendum. Curabitur quis erat hendrerit, viverra nisi ac, mollis sem. Etiam ex orci, dictum at elit eu, rhoncus mattis nunc. Proin molestie ex magna, in viverra dui rhoncus dignissim. Sed accumsan mi vel condimentum gravida. Praesent quis est non erat consectetur mattis.</p>
-
-                    <p>Ut mollis molestie egestas. Nunc non gravida urna. Curabitur cursus porttitor felis. Integer et lacus at lorem tempus ullamcorper eget ut enim. Pellentesque orci nibh, fermentum ac maximus vel, iaculis quis est. Aenean maximus tempus molestie. In eu viverra magna, at sagittis ligula. Phasellus et orci et ex sollicitudin interdum. Nam malesuada felis non leo faucibus, a sodales diam rutrum. Curabitur mattis ex ut tellus venenatis lacinia. Quisque consectetur mattis tincidunt. Vestibulum lacus mi, pretium sit amet convallis et, gravida at lorem. Nam laoreet eget mi a tempus.</p>
+                    <h1>Book a Tour</h1>
+                    <form>
+                        <div class="form-group row">
+                            <label for="firstName" class="col-md-2 col-form-label">First Name</label>
+                            <div class="col-md-10">
+                            <input type="text" class="form-control" id="firstName" name="firstName" placeholder="First Name" />
+                            </div>
+                        </div> <!-- ROW END -->
+                        <div class="form-group row">
+                            <label for="lastName" class="col-md-2 col-form-label">Last Name</label>
+                            <div class="col-md-10">
+                            <input type="text" class="form-control" id="lastName" name="lastName" placeholder="Last Name" />
+                            </div>
+                        </div> <!-- ROW END -->
+                        <div class="form-group row">
+                            <label for="areaCode" class="col-md-2 col-form-label">Contact Tel.</label>
+                            <div class="col-5 col-md-3">
+                                <input type="tel" class="form-control" id="areaCode" name="areaCode" placeholder="Area code" />
+                            </div> <!-- COL END -->
+                            <div class="col-7">
+                                <input type="tel" class="form-control" name="telNum" placeholder="Tel. number" />
+                            </div> <!-- COL END -->
+                        </div> <!-- ROW END -->
+                        <div class="form-group row">
+                            <label for="email" class="col-md-2 col-form-label">Email</label>
+                            <div class="col-md-10">
+                                <input type="email" class="form-control" id="email" name="email" placeholder="Email" />
+                            </div> <!-- COL END -->
+                        </div> <!-- ROW END -->
+                        <div class="form-group row">
+                            <label for="tourDate" class="col-md-2 col-form-label">Preferred Tour Date</label>
+                            <div class="col-md-10">
+                                <input type="date" class="form-control" id="tourDate" name="tourDate" />
+                            </div> <!-- COL END -->
+                        </div> <!-- ROW END -->
+                        <div class="form-group row">
+                            <label for="feedback" class="col-md-2 col-form-label">Other Notes or Requests</label>
+                            <div class="col-md-10">
+                                <textarea class="form-control" id="feedback" name="feedback" rows="8"></textarea>
+                            </div>
+                        </div> <!-- ROW END -->
+                        <div class="form-group row">
+                            <div class="offset-md-2 col-md-10">
+                                <button type="submit" class="btn btn-primary">Schedule Tour</button>
+                            </div>
+                        </div> <!-- ROW END -->
+                    </form>
                 </div>
             </div>
         </div> <!-- END CONTAINER -->
@@ -119,7 +161,7 @@
                     <div class="row">
                         <div class="col-12 col-md-3 col">
                             <ul class="list-unstyled">
-                                <li><a href="#">About the School</a></li>
+                                <li><a href="about.html">About the School</a></li>
                                 <ul class="list-unstyled d-none d-md-block">
                                     <li><a href="whykit.html">Why Kit Academy?</a></li>
                                     <li><a href="construction.html">History</a></li>
@@ -131,11 +173,11 @@
                         </div> <!-- ABOUT COL -->
                         <div class="col-12 col-md-3">
                             <ul class="list-unstyled">
-                                <li><a href="visit.html">Plan a Visit</a></li>
+                                <li><a href="visit.html" class="active">Plan a Visit</a></li>
                                 <ul class="list-unstyled d-none d-md-block">
                                     <li><a href="construction.html">Virtual Tour</a></li>
                                     <li><a href="construction.html">Self-Guided Tour</a></li>
-                                    <li><a href="guidedtour.html">Book a Guided Tour</a></li>
+                                    <li><a href="#">Book a Guided Tour</a></li>
                                     <li><a href="construction.html">Photo Gallery</a></li>
                                 </ul> <!-- END PLAN SUB-LIST -->
                                 <li class="d-none d-md-block"><a href="construction.html">Store</a></li>
