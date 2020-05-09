@@ -12,6 +12,8 @@
         <!-- Additional CSS must be placed after Bootstrap CSS -->
         <link rel="stylesheet" href="node_modules/font-awesome/css/font-awesome.min.css" />
         <link rel="stylesheet" href="node_modules/bootstrap-social/bootstrap-social.css" />
+        <link href="https://fonts.googleapis.com/css2?family=Playfair+Display+SC&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Jost&display=swap" rel="stylesheet">
         <link rel="stylesheet" href="css/styles.css" />
 
         <title>About Kit Academy</title>
@@ -20,7 +22,7 @@
         <!-- NAVIGATION -->
         <nav class="navbar navbar-expand-sm sticky-top">
         <div class="container">
-            <a class="navbar-brand" href="index.html"><img src="img/logo.png" height="30" width="30" /></a>
+            <a class="navbar-brand" href="index.html"><img src="img/logo.png" height="50" /><img src="img/logo-text.png" height="50" /></a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#nucampNavbar">
                 <span class="navbar-toggler-icon"></span>
             </button>
@@ -38,9 +40,9 @@
                     </li>
                     <li class="nav-item dropdown"><a class="nav-link dropdown-toggle" id="visitDropdown" role="button" data-toggle="dropdown"aria-haspopup="true" aria-expanded="false">Visit</a>
                         <div class="dropdown-menu" aria-labelledby="visitDropdown">
+                            <a class="dropdown-item" href="guidedtour.html">Book a Tour</a>
                             <a class="dropdown-item" href="construction.html">Virtual Tour</a>
                             <a class="dropdown-item" href="construction.html">Self-Guided Tour</a>
-                            <a class="dropdown-item" href="guidedtour.html">Book a Tour</a>
                             <a class="dropdown-item" href="construction.html">Photo Gallery</a>
                         </div>
                     </li>
@@ -54,7 +56,7 @@
                     </li>
                     <li class="nav-item dropdown"><a class="nav-link dropdown-toggle" id="contactDropdown" role="button" data-toggle="dropdown"aria-haspopup="true" aria-expanded="false">Contact</a>
                         <div class="dropdown-menu" aria-labelledby="contactDropdown">
-                            <a class="dropdown-item" href="construction.html">Contact</a>
+                            <a class="dropdown-item" href="contact.html">Contact</a>
                             <a class="dropdown-item" href="construction.html">Career Opportunities</a>
                             <a class="dropdown-item" href="construction.html">Term Dates</a>
                             <a class="dropdown-item" href="construction.html">School Policies</a>
@@ -69,13 +71,18 @@
         <div id="headerCarousel" class="carousel slide carousel-fade" data-ride="carousel">
             <div class="carousel-inner">
                 <div class="carousel-item active">
-                    <img class="d-block w-100" src="img/boysSchool.jpg" />
+                    <img class="d-block w-100" src="img/soccer.jpg" />
                 </div> <!-- CAROUSEL ITEM END -->
                 <div class="carousel-item">
-                    <img class="d-block w-100" src="img/halls.jpg" />
+                    <img class="d-block w-100" src="img/theater.jpg" />
+                </div> <!-- CAROUSEL ITEM END -->
+                <div class="carousel-item">
+                    <img class="d-block w-100" src="img/class.jpg" />
                 </div> <!-- CAROUSEL ITEM END -->
             </div> <!-- CAROUSEL INNER -->
         </div> <!-- CAROUSEL END -->
+
+        <div class="linediv"></div>
     
         <div class="container">
             <!-- SUB NAVIGATION -->
@@ -102,16 +109,22 @@
         <!-- FOOTER -->
         <footer class="site-footer">
             <div class="row">
-                <div class="col-6 col-md-4">
+                <div class="col-6">
                     <div class="row">
-                        <div class="mx-3 mb-1 col-12 col-lg-3">
-                            <img src="img/logo.png" height="100px" />
+                        <div class="mb-1 col-12 col-md-6 col-lg-4">
+                            <img src="img/full-logo-small.png" />
                         </div> <!-- END LOGO COL -->
-                        <div class="mx-3 col-12 col-lg-7">
-                            <p>1234 Address Way</br>
-                                Anytown, ST 12345</p>
-                            <p>(123) 456-7890</br>
-                                email@kitacademy.edu</p>
+                        <div class="ml-2 ml-md-0 col-12 col-md-6">
+                            <div class="row">
+                                <div class="col col-xl-6">
+                                    <p>1234 Address Way</br>
+                                        Anytown, ST 12345</p>
+                                </div>
+                                <div class="col col-xl-6">
+                                    <p>(123) 456-7890</br>
+                                        email@kitacademy.edu</p>
+                                </div>
+                            </div>
                         </div> <!-- END CONTACT COL -->
                     </div> <!-- END LOGO/CONTACT ROW -->
                 </div> <!-- END LOGO/CONTACT COL -->
@@ -119,7 +132,7 @@
                     <div class="row">
                         <div class="col-12 col-md-3 col">
                             <ul class="list-unstyled">
-                                <li><a href="about.html">About the School</a></li>
+                                <li><strong><a href="about.html">About the School</a></strong></li>
                                 <ul class="list-unstyled d-none d-md-block">
                                     <li><a href="#" class="active">Why Kit Academy?</a></li>
                                     <li><a href="construction.html">History</a></li>
@@ -131,19 +144,19 @@
                         </div> <!-- ABOUT COL -->
                         <div class="col-12 col-md-3">
                             <ul class="list-unstyled">
-                                <li><a href="visit.html">Plan a Visit</a></li>
+                                <li><strong><a href="visit.html">Plan a Visit</a></strong></li>
                                 <ul class="list-unstyled d-none d-md-block">
+                                    <li><a href="guidedtour.html">Book a Guided Tour</a></li>
                                     <li><a href="construction.html">Virtual Tour</a></li>
                                     <li><a href="construction.html">Self-Guided Tour</a></li>
-                                    <li><a href="guidedtour.html">Book a Guided Tour</a></li>
                                     <li><a href="construction.html">Photo Gallery</a></li>
                                 </ul> <!-- END PLAN SUB-LIST -->
-                                <li class="d-none d-md-block"><a href="construction.html">Store</a></li>
+                                <li class="d-none d-md-block"><strong><a href="construction.html">Store</a></strong></li>
                             </ul> <!-- END PLAN LIST -->
                         </div> <!-- END PLAN COL -->
                         <div class="col-12 col-md-3">
                             <ul class="list-unstyled">
-                                <li><a href="programs.html">Programs</a></li>
+                                <li><strong><a href="programs.html">Programs</a></strong></li>
                                 <ul class="list-unstyled d-none d-md-block">
                                     <li><a href="construction.html">Arts</a></li>
                                     <li><a href="construction.html">Athletics</a></li>
@@ -153,7 +166,7 @@
                         </div> <!-- PROGRAMS COL -->
                         <div class="col-12 col-md-3">
                             <ul class="list-unstyled">
-                                <li><a href="construction.html">Contact Us</a></li>
+                                <li><strong><a href="contact.html">Contact Us</a></strong></li>
                                 <ul class="list-unstyled d-none d-md-block">
                                     <li><a href="construction.html">Career Opportunities</a></li>
                                     <li><a href="construction.html">Term Dates</a></li>

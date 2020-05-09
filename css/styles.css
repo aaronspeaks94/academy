@@ -1,3 +1,20 @@
+h1, h2, h3, .card-header, .card-title, .btn {
+    font-family: 'Playfair Display SC', serif;
+}
+
+body {
+    font-family: 'Jost', sans-serif;
+}
+
+.btn-primary {
+    background-color: #082D74;
+    border-color: #082D74;
+}
+
+.bg-blue {
+    background-color: #082D74;
+}
+
 .navbar {
     background-color: lightgrey;
 }
@@ -26,14 +43,27 @@
     }
 }
 
+@media (min-height: 1000px) {
+    .carousel-inner {
+        height: 20vh !important;
+    }
+}
+
 @media (min-width: 812px) {
     .carousel-inner {
         height: 50vh;
     }
 }
 
+.linediv {
+    height: 20px;
+    width: auto;
+    background-color: #082D74;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.7), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
 .site-footer {
-    background-color: darkblue;
+    background-color: lightgrey;
     padding: 20px 0;
-    color: white;
+    color: slategrey;
 }
